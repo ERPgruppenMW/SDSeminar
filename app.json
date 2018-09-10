@@ -1,0 +1,26 @@
+{
+  "id": "13c74d96-dac3-4380-8550-9b41ce445c0b",
+  "name": "SD Seminar",
+  "publisher": "D.E. Veloper",
+  "brief": "Seminar projekt med alverdens kode",
+  "description": "",
+  "version": "1.0.0.0",
+  "compatibilityId": "1.0.0.0",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "Bugslogo.jpg",
+  "capabilities": [],
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "11.0.0.0",
+  "application": "11.0.0.0",
+  "showMyCode": true,
+  "features": "TranslationFile", 
+  "target": "Internal",
+  "idRange": {
+    "from": 1234567,
+    "to": 123456799
+  }
+}
