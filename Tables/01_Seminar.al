@@ -69,10 +69,11 @@ table 123456701 "CSD Seminar"
         {
             Caption = 'Comment';
             Editable = false;
-            //FieldClass=FlowField;
-            //CalcFormula=exist("Seminar Comment Line"
-            //where("Table Name"= const("Seminar"),
-            // "No."=Field("No.")));
+            FieldClass=FlowField;
+            CalcFormula=exist("csd Seminar Comment Line"
+            where("Table Name"= const("Seminar"),
+             "No."=Field("No.")));
+             //MW Er det nu dette skal udkommenteres?
 
 
         }
@@ -137,6 +138,7 @@ table 123456701 "CSD Seminar"
         Seminar: Record "CSD Seminar";
         GenProdPostingGroup: Record "Gen. Product Posting Group";
         NoSeriesMgt: Codeunit NoSeriesManagement;
+        
 
     trigger OnInsert();
     begin
